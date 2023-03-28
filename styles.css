@@ -2,3 +2,13 @@ body {
     font-family: 'Inter';
     padding: 30px
 }
+
+a {
+    text-underline-offset: 20%;
+    text-decoration-thickness: 10%;
+    color: #7185d7;
+}
+
+a:hover {
+    color: #2ca585;
+}
