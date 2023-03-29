@@ -7,8 +7,30 @@ a {
     text-underline-offset: 20%;
     text-decoration-thickness: 10%;
     color: #7185d7;
+    font-weight: bold;
 }
 
 a:hover {
     color: #2ca585;
+}
+
+.article-wrapper {
+    font-size: large;
+    font-weight: bolder;
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: .25;
+    padding: 10px;
+    border: #7185d7 .5px solid;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.tech-writing-section {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
