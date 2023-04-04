@@ -15,7 +15,7 @@ a:hover {
 }
 
 .article-wrapper {
-    font-size: large;
+    font-size: normal;
     font-weight: bolder;
     min-width: 200px;
     display: flex;
@@ -48,9 +48,10 @@ padding-bottom: 5px;
     width: 25px;
     padding: 5px;
     border-radius: 5px;
+    color:#7185d7
 }
 
 .icon:hover {
-    filter:invert(100);
-    background-color: #2ca585;
+    color: white;
+    background-color: #7185d7;
 }
