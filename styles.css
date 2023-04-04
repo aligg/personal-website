@@ -71,6 +71,11 @@ footer {
 .quote {
     max-width: 100%;
     font-style: italic;
+    font-size: small;
+}
+
+.social {
+    padding-top: 10px;
 }
 
 @media screen and (min-width: 1200px) {
