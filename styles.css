@@ -55,3 +55,30 @@ padding-bottom: 5px;
     color: white;
     background-color: #7185d7;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-image {
+    max-width: 100%;
+}
+
+.quote {
+    max-width: 100%;
+    font-style: italic;
+}
+
+@media screen and (min-width: 1200px) {
+    .footer-image {
+        max-width: 35%;
+    }
+
+    .quote {
+        max-width: 35%;
+    }
+}
