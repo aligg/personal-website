@@ -1,6 +1,8 @@
 body {
     font-family: 'Inter';
-    padding: 30px
+    padding: 30px;
+    max-width: 80ch;
+
 }
 
 a {
@@ -83,14 +85,4 @@ footer {
 
 .social {
     padding-top: 10px;
-}
-
-@media screen and (min-width: 1200px) {
-    .footer-image {
-        max-width: 35%;
-    }
-
-    .quote {
-        max-width: 35%;
-    }
 }
